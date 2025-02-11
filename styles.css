@@ -11,7 +11,8 @@ body {
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 13px 20px;
+  margin: 0 10px;
   font-size: 16px;
   color: white;
   border: none;
@@ -26,6 +27,15 @@ body {
 .btn-primary:hover {
   background-color: #0056b3;
 }
+
+.btn-secondary {
+  background-color: #9d8453;
+}
+
+.btn-secondary:hover {
+  background-color: #d6b512;
+}
+
 
 .btn-danger {
   background-color: transparent;
