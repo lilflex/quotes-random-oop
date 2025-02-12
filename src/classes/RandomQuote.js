@@ -18,8 +18,7 @@ class RandomQuote {
       const { id, quote: text, author } = await response.json();
       return new Quote(id, text, author);
     } catch (error) {
-      console.error("Console Error: ", error);
-      throw new Error("Throw new Error : " , error);
+      console.error("Error: ", error);
     }
   }
 
