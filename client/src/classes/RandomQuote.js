@@ -16,7 +16,9 @@ class RandomQuote {
     try {
       const response = await fetch(url, options);
       const { id, quote: text, author } = await response.json();
-      return new Quote(id, text, author);
+      if (id && text && author) {
+        return new Quote(id, text, author);
+      }
     } catch (error) {
       console.error("Error: ", error);
     }
