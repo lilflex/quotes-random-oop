@@ -5,14 +5,14 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 20px auto;
   text-align: center;
 }
 
 .btn {
   padding: 13px 20px;
-  margin: 0 10px;
+  margin: 10px;
   font-size: 16px;
   color: white;
   border: none;
@@ -36,6 +36,13 @@ body {
   background-color: #d6b512;
 }
 
+.btn-ternary {
+  background-color: #ff6347;
+}
+
+.btn-ternary:hover {
+  background-color: #a73622;
+}
 
 .btn-danger {
   background-color: transparent;
